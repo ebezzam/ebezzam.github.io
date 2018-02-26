@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-* Master's student in [Communication Systems](https://ic.epfl.ch/communication-systems/master) at EPFL and assistant at [LCAV](http://lcav.epfl.ch/)
+* Master's student in <a href="https://ic.epfl.ch/communication-systems/master/" target="_blank">Communication Systems</a> at EPFL and assistant at <a href="http://lcav.epfl.ch/" target="_blank">LCAV</a>
 * Interested in signal processing (particularly audio)
 * Originally from the Bay Area
 * Lived in Montezuma (New Mexico), Bremen (Germany), Ilmenau (Germany), Lausanne (Switzerland)
