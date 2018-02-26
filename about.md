@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+* Master's student in [Communication Systems](https://ic.epfl.ch/communication-systems/master) at EPFL and assistant at [LCAV](http://lcav.epfl.ch/)
+* Interested in signal processing (particularly audio)
+* Originally from the Bay Area
+* Lived in Montezuma (New Mexico), Bremen (Germany), Ilmenau (Germany), Lausanne (Switzerland)
+<!-- * Music, soccer, cooking, and travel enthusiast -->
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<!-- ***Here's*** a formal CV but more interestingly a [CV of failures]({{ site.url }}/pdfs/CV_failures.pdf). This idea started with Melanie Stefan's [Nature article](https://www.nature.com/naturejobs/science/articles/10.1038/nj7322-467a) and got more attention when a Princeton professor posted [his CV of failures](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf). I think it's a great way of not only showing that everyone faces rejection but that the route to success is often accompanied with disappointment. The willingness to keep trying is a better reflection of our characterAnd that's a reflection of someone's determination and hard work.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[//]: Including PDFs https://jekyllrb.com/docs/posts/ -->
