@@ -8,6 +8,7 @@ permalink: /projects/
 
 For my master's thesis, I am investigating the use of the _finite rate of innovation_ framework for medical ultrasound imaging, in particular with _plane wave imaging_ to reduce the necessary amount of data needed to reconstruct a meaningful ultrasound image.
 
+---
 
 ### Open source platform for microphone arrays (ongoing)
 
@@ -18,10 +19,9 @@ My main contributions:
 * co-supervised multiple semester projects:
 
    1. <a href="https://github.com/LCAV/easy-dsp" target="_blank">EasyDSP</a> : a browser-based editor for programming digital signal processing (DSP) in Python on the BeagleBone Black (BBB).
+   2. <a href="https://github.com/Scrashdown/PRU-Audio-Processing" target="_blank">PRU Audio Processing</a> : using unique microcontrollers from the BBB to perform the front-end audio processing (downsampling and low-pass filtering) for an array of PDM microphones. Moreover, a C API was built to conveniently access audio samples in real-time for processing.
+   3. machine learning pre-processing additions to `pyroomacoustics` (ongoing)
 
-   2.<a href="https://github.com/Scrashdown/PRU-Audio-Processing" target="_blank">PRU Audio Processing</a> : using unique microcontrollers from the BBB to perform the front-end audio processing (downsampling and low-pass filtering) for an array of PDM microphones. Moreover, a C API was built to conveniently access audio samples in real-time for processing.
-
-   3.machine learning pre-processing additions to `pyroomacoustics` (ongoing)
 * designed, 3D-printed, and assembled a lamp that can be programmed in Python to display awesome colors using data collected from the microphone array.
 
 This project has been involved with three papers during my time at LCAV:
@@ -29,10 +29,13 @@ This project has been involved with three papers during my time at LCAV:
 * <a href="https://arxiv.org/abs/1710.04196" target="_blank">`pyroomacoustics` paper</a>
 * <a href="http://ieeexplore.ieee.org/document/7952744/" target="_blank">FRIDA algorithm for DOA</a>
 
+---
+
 ### A cognitive robot for helping identify motor disabilities (HackZurich 2017, 2nd place out of ~150 projects)
 
 We used ABB's YuMi robot, Microsoft's Cognitive Services, and OpenCV to automate a concise version of the <a href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildPerceptionandVisuomotorAbilities/MABC-2/MovementAssessmentBatteryforChildren-SecondEdition(MovementABC-2).aspx" target="_blank">Movement Assessment Battery for Children</a> test to help identify motor impairment. You can read more about the project on <a href="https://devpost.com/software/jred" target="_blank">DevPost</a>.
 
+---
 
 ### Beamformer design tool (internship at DSP Concepts)
 
@@ -44,18 +47,22 @@ An additional component of the intership was to validate the performance of the 
 
 A white paper which describes some of the beamforming and DOA strategies can be found <a href="https://dspconcepts.com/sites/default/files/voice_ui_part2.pdf">here</a> and another on voice user interfaces <a href="https://dspconcepts.com/sites/default/files/fundamentals_of_voice_ui.pdf">here</a>.
 
+---
 
 ### A Python implementation of DeepFool (semester project at LTS4)
 
 During this semester project, I implemented the <a href="https://arxiv.org/abs/1511.04599">DeepFool</a> algorithm in Python and developed a "blackbox" approach, i.e.\ a situation in which we do not have full access to the classifier structure as is normally required by DeepFool. As well as applying this blackbox approach to ``academic'' networks, such as those submitted for the <a href="https://arxiv.org/abs/1511.04599">ILSVRC</a> competition, I also applied it to a commercial classifier - Clarifai - to gauge the robustness of products in the area of image classification and object recognition. An implementation of DeepFool for Google's Cloud Vision, IBM's Visual Recognition, Amazon Rekognition, and Microsoft's Computer Vision APIs was also made but not extensively tested but to limited query credits.
 
-Coming soon: report download
+Coming soon: report + code
+
+---
 
 
 ### DoctorBot : a chatbot for medical advice (HackZurich 2016, top 25 out of ~150 projects)
 
 We built a chatbot within Facebook that integrated several APIs to provide medical advice and suggest a nearby doctor. You can read more about the project on <a href="https://github.com/ebezzam/DoctorBot">GitHub</a>.
 
+---
 
 ### Compressive sensing based beamforming demo for medical ultrasound (semester project at LTS5)
 
@@ -63,6 +70,7 @@ I developed a MATLAB GUI and software for a demo of plane-wave medical ultrasoun
 
 Coming soon: report download
 
+---
 
 ### GSM Codec Identification (Fraunhofer IDMT)
 
