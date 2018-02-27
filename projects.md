@@ -29,7 +29,7 @@ This project has been involved with three papers during my time at LCAV:
 * <a href="https://arxiv.org/abs/1710.04196" target="_blank">`pyroomacoustics` paper</a>
 * <a href="http://ieeexplore.ieee.org/document/7952744/" target="_blank">FRIDA algorithm for DOA</a>
 
-### A cognitive robot for helping diagnose motor disabilities (HackZurich 2017, 2nd place out of ~150 projects)
+### A cognitive robot for helping identify motor disabilities (HackZurich 2017, 2nd place out of ~150 projects)
 
 We used ABB's YuMi robot, Microsoft's Cognitive Services, and OpenCV to automate a concise version of the <a href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildPerceptionandVisuomotorAbilities/MABC-2/MovementAssessmentBatteryforChildren-SecondEdition(MovementABC-2).aspx" target="_blank">Movement Assessment Battery for Children</a> test to help identify motor impairment. You can read more about the project on <a href="https://devpost.com/software/jred" target="_blank">DevPost</a>.
 
