@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Teaching
+title: TEACHING
 permalink: /teaching/
 ---
 
 ### "Signal processing for communications" practical sessions 
 
-Where: EPFL (Lausanne, Switzerland)
-When: Ongoing!
+_Where: EPFL (Lausanne, Switzerland)_ <br>
+_When: Ongoing!_
 
-Practical sessions are being created to complement the theory taught in the course <a href="http://edu.epfl.ch/coursebook/fr/signal-processing-for-communications-COM-303" target="_blank">Signal processing for communications</a>. In particular, we go through the applications presented in this <a href="https://github.com/prandoni/COM303/blob/master/voice_transformer/voicetrans.ipynb" target="_blank">IPython notebook</a>. 
+Practical sessions are being created to complement the theory taught in the course <a href="http://edu.epfl.ch/coursebook/fr/signal-processing-for-communications-COM-303" target="_blank">"Signal processing for communications"</a>. In particular, we go through the applications presented in this <a href="https://github.com/prandoni/COM303/blob/master/voice_transformer/voicetrans.ipynb" target="_blank">IPython notebook</a>. 
 
 I am helping validate the implementations (mainly done by Adrien Hoffet) on the STM32 <a href="http://www.st.com/en/evaluation-tools/nucleo-f072rb.html" target="_blank">Nucleo-F072</a> board and writing up the step-by-step guides for the students, most of whom are completely new to the world of embedded systems! Adrien and I will give the optional practical sessions together.
 
