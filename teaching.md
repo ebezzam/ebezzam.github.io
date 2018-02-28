@@ -55,7 +55,7 @@ I was a TA for the following courses at Jacobs University, which involved giving
 ### Assistant instructor at the Global Leadership Forum
 
 _Where: UWC-USA (Montezuma, NM, USA)_<br>
-_When: Jul 2012 - Aug 2012; Jul 2013 - Aug 2013
+_When: Jul 2012 - Aug 2012; Jul 2013 - Aug 2013_
 
 I was one of the mentors at the <a href="https://www.uwc-usa.org/page.cfm?p=864" target="_blank">Global Leadership Forum</a> (GLF) - a global leadership camp for 30 youth from around 15 countries. We gave workshops in leadership, project development, community building, and intercultural experiences. This was combined with volunteer work at non-profits in Santa Fe and with a <a href="http://www.missionwolf.org/" target="_blank">Wolf Sanctuary</a> in Colorado.
 

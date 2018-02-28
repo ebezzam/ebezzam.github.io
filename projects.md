@@ -28,7 +28,7 @@ My main contributions:
    3. Machine learning pre-processing utilities for `pyroomacoustics` (ongoing).
 
 
-* Designed, 3D-printed, and assembled a visual display for the microphone array that can be programmed in Python to display awesome colors using data collected from the array.
+* Designed, 3D-printed, and assembled a visual display for the microphone array that can be programmed in Python to display awesome colors using data collected from the array, most notably the DOA.
 
 This project has been involved with a few papers during my time at LCAV:
 * <a href="http://ieeexplore.ieee.org/document/8005297/" target="_blank">ICASSP 2018 Demo</a>
@@ -75,8 +75,8 @@ _Coming soon: report + code_
 
 ### DoctorBot: a chatbot for medical advice
 
-Where: HackZurich 2016 (Zurich, Switzerland)
-Result: Top 25 out of ~150 projects
+_Where: HackZurich 2016 (Zurich, Switzerland)_<br>
+_Result: Top 25 out of ~150 projects_
 
 We built a chatbot within Facebook that integrated several APIs to provide medical advice and suggest a nearby doctor. You can read more about the project on <a href="https://github.com/ebezzam/DoctorBot" target="_blank">GitHub</a>.
 
@@ -84,10 +84,10 @@ We built a chatbot within Facebook that integrated several APIs to provide medic
 
 ### Compressive sensing based ultrasound imaging demo
 
-Where: LTS5 (EPFL, Lausanne, Switzerland)
-When: Feb 2017 - Jun 2017
+_Where: LTS5 (EPFL, Lausanne, Switzerland)_<br>
+_When: Feb 2017 - Jun 2017_
 
-I developed a MATLAB GUI and software for a demo of plane-wave medical ultrasound imaging based on compressive sensing techniques. This would interface with the FPGA-based ultrasound device <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7468550" target="_blank">_ULA-OP_</a>. I was part of the team presenting the algorithm/platform at the <a href="http://www.nano-tera.ch/pdf/posters2016/UltrasoundToGo250.pdf" target="_blank">2016 Nano-Tera Meeting</a> poster session.
+I developed a MATLAB GUI and software for a demo of plane-wave medical ultrasound imaging based on compressive sensing techniques. This would interface with the FPGA-based ultrasound device <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7468550" target="_blank">_ULA-OP_</a>. I was part of the team that presented the algorithm/platform at the <a href="http://www.nano-tera.ch/pdf/posters2016/UltrasoundToGo250.pdf" target="_blank">2016 Nano-Tera Meeting</a> poster session.
 
 _Coming soon: report download_
 
@@ -98,5 +98,5 @@ _Coming soon: report download_
 _Where: Fraunhofer IDMT (Ilmenau, Germany)_<br>
 _When: Jun 2014 - Aug 2014; Apr 2015 - Jul 2015_
 
-As part of a three-month internship during my Bachelor's, I worked at Fraunhofer IDMT in Ilmenau, Germany. There, I investigated and prototyped algorithms in Octave for GSM codec identification and (for a couple codecs) tampering detection. For my thesis, I ported the implementation to C++ so that it could be integrated with IDMT's other codec identifiers. Finally, I used IDMT's annotation and testing framework to evaluate the performance of my algorithms.
+As part of a three-month internship during my Bachelors, I worked at Fraunhofer IDMT in Ilmenau, Germany. There, I investigated and prototyped algorithms in Octave for GSM codec identification and (for a couple codecs) tampering detection. For my thesis, I ported the implementation to C++ so that it could be integrated with IDMT's other codec identifiers. Finally, I used IDMT's annotation and testing framework to evaluate the performance of my algorithms.
 
