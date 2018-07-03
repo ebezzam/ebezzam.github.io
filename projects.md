@@ -1,16 +1,7 @@
 ---
 layout: page
-title: PROJECTS
+title: Projects
 permalink: /projects/
----
-
-### Sampling at the rate of innovation for ultrasound imaging and localization
-
-_Where: LTS5 (EPFL, Lausanne, Switzerland)_<br>
-_When: Ongoing!_
-
-For my master's thesis, I am investigated the application of _Finite Rate of Innovation_ (FRI) and _Euclidean Distance Matrices_ (EDM) for ultrasound imaging and localization. The target was medical imaging but an application to non-destructive evaluation was also considered.
-
 ---
 
 ### Open source platform for microphone arrays
@@ -18,7 +9,7 @@ For my master's thesis, I am investigated the application of _Finite Rate of Inn
 _Where: LCAV (EPFL, Lausanne, Switzerland)_<br>
 _When: Ongoing!_
 
-This has been an ongoing project as part of my Research Scholar' work at LCAV (EPFL) in collaboration with multiple people, in particular my supervisor <a href="http://www.robinscheibler.org/" target="_blank">Dr. Robin Scheibler</a>. The project encompasses algorithms, software, embedded systems, and hardware.
+This has been an ongoing project which began during my Research Scholar' work at LCAV (EPFL) in collaboration with multiple people, in particular my supervisor <a href="http://www.robinscheibler.org/" target="_blank">Dr. Robin Scheibler</a>. The project encompasses algorithms, software, embedded systems, and hardware.
 
 My main contributions:
 * Development for the <a href="https://github.com/LCAV/pyroomacoustics" target="_blank">`pyroomacoustics`</a> package, most notably the direction-of-arrival (DOA) techniques and the STFT engine.
@@ -34,6 +25,15 @@ This project has been involved with a few papers during my time at LCAV:
 * <a href="http://ieeexplore.ieee.org/document/8005297/" target="_blank">ICASSP 2018 Demo</a>
 * <a href="https://arxiv.org/abs/1710.04196" target="_blank">`pyroomacoustics` paper</a>
 * <a href="http://ieeexplore.ieee.org/document/7952744/" target="_blank">FRIDA algorithm for DOA</a>
+
+---
+
+### Sampling at the rate of innovation for ultrasound imaging and localization
+
+_Where: LTS5 (EPFL, Lausanne, Switzerland)_<br>
+_When: Feb 2018 - Jul 2018_
+
+For my master's thesis, I investigated the application of _Finite Rate of Innovation_ (FRI) and _Euclidean Distance Matrices_ (EDM) for ultrasound imaging and localization. The target was medical imaging but an application to non-destructive evaluation was also considered.
 
 ---
 
