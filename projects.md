@@ -4,12 +4,12 @@ title: PROJECTS
 permalink: /projects/
 ---
 
-### FRI applied to medical ultrasound imaging
+### Sampling at the rate of innovation for ultrasound imaging and localization
 
 _Where: LTS5 (EPFL, Lausanne, Switzerland)_<br>
 _When: Ongoing!_
 
-For my master's thesis, I am investigating the use of the _Finite Rate of Innovation_ (FRI) framework for medical ultrasound imaging, in particular with _plane wave imaging_ to reduce the necessary amount of data needed to reconstruct a meaningful ultrasound image.
+For my master's thesis, I am investigated the application of _Finite Rate of Innovation_ (FRI) and _Euclidean Distance Matrices_ (EDM) for ultrasound imaging and localization. The target was medical imaging but an application to non-destructive evaluation was also considered.
 
 ---
 
@@ -42,7 +42,7 @@ This project has been involved with a few papers during my time at LCAV:
 _Where: HackZurich 2017 (Zurich, Switzerland)_ <br>
 _Result: 2nd place out of ~150 projects_
 
-We used ABB's YuMi robot, Microsoft's Cognitive Services, and OpenCV to automate a concise version of the <a href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildPerceptionandVisuomotorAbilities/MABC-2/MovementAssessmentBatteryforChildren-SecondEdition(MovementABC-2).aspx" target="_blank">Movement Assessment Battery for Children</a> test to help identify motor impairment. You can read more about the project on <a href="https://devpost.com/software/jred" target="_blank">DevPost</a>.
+We used ABB's YuMi robot, Microsoft's Cognitive Services, and OpenCV to automate a concise version of the <a href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildPerceptionandVisuomotorAbilities/MABC-2/MovementAssessmentBatteryf orChildren-SecondEdition(MovementABC-2).aspx" target="_blank">Movement Assessment Battery for Children</a> test to help identify motor impairment. You can read more about the project on <a href="https://devpost.com/software/jred" target="_blank">DevPost</a>.
 
 ---
 
@@ -69,8 +69,6 @@ _When: Sep 2016 - Jan 2017_
 
 During this semester project, I implemented the <a href="https://arxiv.org/abs/1511.04599" target="_blank">DeepFool</a> algorithm in Python and developed a "blackbox" approach, i.e. a situation in which we do not have full access to the classifier structure as is normally required by DeepFool. As well as applying this blackbox approach to _academic_ networks, such as those submitted for the <a href="http://www.image-net.org/challenges/LSVRC/" target="_blank">ILSVRC</a> competition, I also applied it to a commercial classifier - <a href="https://www.clarifai.com/" target="_blank">Clarifai</a> - to gauge the robustness of products in the area of image classification and object recognition. An implementation of DeepFool for Google's Cloud Vision, IBM's Visual Recognition, Amazon Rekognition, and Microsoft's Computer Vision APIs was also made but not extensively tested due to limited query credits.
 
-_Coming soon: report + code_
-
 ---
 
 ### DoctorBot: a chatbot for medical advice
@@ -89,8 +87,6 @@ _When: Feb 2017 - Jun 2017_
 
 I developed a MATLAB GUI and software for a demo of plane-wave medical ultrasound imaging based on compressive sensing techniques. This would interface with the FPGA-based ultrasound device <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7468550" target="_blank">_ULA-OP_</a>. I was part of the team that presented the algorithm/platform at the <a href="http://www.nano-tera.ch/pdf/posters2016/UltrasoundToGo250.pdf" target="_blank">2016 Nano-Tera Meeting</a> poster session.
 
-_Coming soon: report download_
-
 ---
 
 ### GSM Codec Identification
@@ -98,5 +94,5 @@ _Coming soon: report download_
 _Where: Fraunhofer IDMT (Ilmenau, Germany)_<br>
 _When: Jun 2014 - Aug 2014; Apr 2015 - Jul 2015_
 
-As part of a three-month internship during my Bachelors, I worked at Fraunhofer IDMT in Ilmenau, Germany. There, I investigated and prototyped algorithms in Octave for GSM codec identification and (for a couple codecs) tampering detection. For my thesis, I ported the implementation to C++ so that it could be integrated with IDMT's other codec identifiers. Finally, I used IDMT's annotation and testing framework to evaluate the performance of my algorithms.
+As part of a three-month internship during my Bachelors, I worked at Fraunhofer IDMT in Ilmenau, Germany. There, I investigated and prototyped algorithms in Octave for GSM codec identification and (for a couple codecs) tampering detection. For my thesis, I ported the implementation to C++ so that it could be integrated with IDMT's other codec identifiers. Finally, I used IDMT's annotation and testing framework to evaluate the performance of the developed algorithms.
 

@@ -9,17 +9,22 @@ permalink: /teaching/
 _Where: EPFL (Lausanne, Switzerland)_ <br>
 _When: Ongoing!_
 
-Practical sessions are being created to complement the theory taught in the course <a href="http://edu.epfl.ch/coursebook/fr/signal-processing-for-communications-COM-303" target="_blank">"Signal processing for communications"</a>. In particular, we go through the applications presented in this <a href="https://github.com/prandoni/COM303/blob/master/voice_transformer/voicetrans.ipynb" target="_blank">IPython notebook</a>. 
+Practical sessions were created to complement the theory taught in the course <a href="http://edu.epfl.ch/coursebook/fr/signal-processing-for-communications-COM-303" target="_blank">"Signal processing for communications"</a>. In particular, we go through the applications presented in this <a href="https://github.com/prandoni/COM303/blob/master/voice_transformer/voicetrans.ipynb" target="_blank">IPython notebook</a>. 
 
-I am helping validate the implementations (mainly done by Adrien Hoffet) on the STM32 <a href="http://www.st.com/en/evaluation-tools/nucleo-f072rb.html" target="_blank">Nucleo-F072</a> board and writing up the step-by-step guides for the students, most of whom are completely new to the world of embedded systems! Adrien and I will give the practical sessions together.
+Implementations are done on the STM32 <a href="http://www.st.com/en/evaluation-tools/nucleo-f072rb.html" target="_blank">Nucleo-F072</a> board and step-by-step guides were prepared for the students, most of whom are completely new to the world of embedded systems!
 
 ---
 
-### Volunteer at GirlsCoding
+### GirlsCoding volunteer
 
 _Where: Lausanne, Switzerland_
 
-At LauzHack 2017 and at the Applied Machine Learning Days 2018, I volunteered in giving coding workshops to girls from ages 9-16. We even made it to the <a href="https://actu.epfl.ch/news/girls-coding-on-rts/" target="_blank">Swiss national TV</a>!
+On a few occasions, I have volunteered in giving coding workshops to girls of ages 9-16:
+* LauzHack 2017
+* Applied Machine Learning Days 2018
+* Swisscom event
+
+We even made it to <a href="https://actu.epfl.ch/news/girls-coding-on-rts/" target="_blank">Swiss national TV</a>!
 
 You can find out more about GirlsCoding at their <a href="https://girlscoding.org/" target="_blank">website</a>.
 
