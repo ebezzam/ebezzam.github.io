@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Welcome to my website! Check out the [About me](https://ebezzam.github.io/about/) section for some quick facts on me, the [PROJECTS](https://ebezzam.github.io/projects/) section to see some of the current and past projects I've worked on, and the [TEACHING](https://ebezzam.github.io/teaching/) tab to see some of my teaching experience.
+Welcome to my website! Check out the [About me](https://ebezzam.github.io/about/) section for some quick facts on me, the [Projects](https://ebezzam.github.io/projects/) section to see some of the current and past projects I've worked on, and the [Teaching](https://ebezzam.github.io/teaching/) tab to see some of my teaching experience.
 
 And don't hesitate to contact me at the email below :)
 
