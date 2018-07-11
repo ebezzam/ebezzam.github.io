@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Teaching
 permalink: /teaching/
 ---
@@ -15,6 +15,19 @@ Implementations are done on the STM32 <a href="http://www.st.com/en/evaluation-t
 
 ---
 
+### "Audio signal processing and virtual acoustics" practical sessions
+
+_Where: EPFL (Lausanne, Switzerland)_<br>
+_When: Oct 2017 - Dec 2017_
+
+For the course <a href="http://edu.epfl.ch/coursebook/en/audio-signal-processing-and-virtual-acoustics-COM-415" target="_blank">"Audio signal processing and virtual acoustics"</a>, I gave optional practical sessions on <a href="https://dspconcepts.com/solutions/audio-weaver" target="_blank">AudioWeaver</a> - a tool which significantly simplifies the process of designing and prototyping audio signal processing algorithms on embedded devices. For the tutorials, we used an <a href="http://www.st.com/en/evaluation-tools/32f769idiscovery.html" target="_blank">STM32F7 discovery kit</a> by STMicroelectronics, and I gave interactive lessons on designing a passthrough, a single-channel noise removal component, and a beamformer. Below are links to the slides/content:
+
+* <a href="https://drive.google.com/drive/folders/1tKxxhCo-dmA_fHBSpa99EhwWhgBdLI0Y?usp=sharing" target="_blank">AudioWeaver intro / passthrough</a>
+* <a href="https://drive.google.com/drive/folders/18sF4oqUtQeWtz_svH6a2cKl0DHXBqmJO?usp=sharing" target="_blank">STFT processing / Single-channel noise removal</a>
+* <a href="https://drive.google.com/drive/folders/104ltiqOSFwK7yAaO3GCWKioVLV3f4REY?usp=sharing" target="_blank">Beamforming in the frequency domain</a>
+
+---
+
 ### GirlsCoding volunteer
 
 _Where: Lausanne, Switzerland_
@@ -27,20 +40,6 @@ On a few occasions, I have volunteered in giving coding workshops to girls of ag
 We even made it to <a href="https://actu.epfl.ch/news/girls-coding-on-rts/" target="_blank">Swiss national TV</a>!
 
 You can find out more about GirlsCoding at their <a href="https://girlscoding.org/" target="_blank">website</a>.
-
----
-
-
-### "Audio signal processing and virtual acoustics" practical sessions
-
-_Where: EPFL (Lausanne, Switzerland)_<br>
-_When: Oct 2017 - Dec 2017_
-
-For the course <a href="http://edu.epfl.ch/coursebook/en/audio-signal-processing-and-virtual-acoustics-COM-415" target="_blank">"Audio signal processing and virtual acoustics"</a>, I gave optional practical sessions on <a href="https://dspconcepts.com/solutions/audio-weaver" target="_blank">AudioWeaver</a> - a tool which significantly simplifies the process of designing and prototyping audio signal processing algorithms on embedded devices. For the tutorials, we used an <a href="http://www.st.com/en/evaluation-tools/32f769idiscovery.html" target="_blank">STM32F7 discovery kit</a> by STMicroelectronics, and I gave interactive lessons on designing a passthrough, a single-channel noise removal component, and a beamformer. Below are links to the slides/content:
-
-* <a href="https://drive.google.com/drive/folders/1tKxxhCo-dmA_fHBSpa99EhwWhgBdLI0Y?usp=sharing" target="_blank">AudioWeaver intro / passthrough</a>
-* <a href="https://drive.google.com/drive/folders/18sF4oqUtQeWtz_svH6a2cKl0DHXBqmJO?usp=sharing" target="_blank">STFT processing / Single-channel noise removal</a>
-* <a href="https://drive.google.com/drive/folders/104ltiqOSFwK7yAaO3GCWKioVLV3f4REY?usp=sharing" target="_blank">Beamforming in the frequency domain</a>
 
 ---
 
