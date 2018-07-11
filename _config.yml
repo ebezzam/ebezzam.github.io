@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Eric Bezzam's Personal Page
+title: Eric Bezzam
 email: ebezzam[at]gmail[dot]com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -24,6 +24,7 @@ github_username:  ebezzam
 # Build settings
 markdown: kramdown
 theme: minima
+# remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
 
