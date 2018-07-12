@@ -106,21 +106,35 @@ from [here](https://github.com/mmistakes/minimal-mistakes) (you can download the
 
 At this [link](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/), they describe some styles modifications that can be made.
 
+### Setting font and font size
+
+[Issue #1352](https://github.com/mmistakes/minimal-mistakes/issues/1352).
+
+Line 78 in `_pages.scss`.
+
 
 ### Adjusting text width for `posts` and `pages`
 
 Perhaps you find the default text width to be too narrow. This can be adjusted by going inside the `_sass` files.
 
-Inside `_sass/minimal-mistakes/_page.scss` (for `pages`) and `_sass/minimal-mistakes/_archive.scss` (for `posts`), adjust the `padding-right` parameter that appears under the `width` entry as such:
+Inside `_sass/minimal-mistakes/_page.scss`, the following variables can be adjusted to vary the column widths
+
+```
+$right-sidebar-width-narrow: 400px !default;
+$right-sidebar-width: 250px !default;
+$right-sidebar-width-wide: 500px !default;
+```
+
+Otherwise, inside `_sass/minimal-mistakes/_page.scss` (for `pages`) and `_sass/minimal-mistakes/_archive.scss` (for `posts`), remove the `padding-right` line completely (when underneath a `width` line):
 
 ```
 @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-padding-right: $right-sidebar-width-narrow;
+    padding-right: $right-sidebar-width-narrow;
 }
 ```
 
-or remove the `padding-right` line completely. Related GitHub issues: [#1265](https://github.com/mmistakes/minimal-mistakes/issues/1265) and [#1373](https://github.com/mmistakes/minimal-mistakes/issues/1373).
+Related GitHub issues: [#1265](https://github.com/mmistakes/minimal-mistakes/issues/1265) and [#1373](https://github.com/mmistakes/minimal-mistakes/issues/1373).
 
 

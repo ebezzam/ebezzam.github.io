@@ -103,7 +103,7 @@ author:
   name             : "Eric Bezzam"
   avatar           : "/assets/images/lauzhack2016.jpg"
   bio              : "Researcher at EPFL; audio and signal processing enthusiast; hackathon organizer and participant."
-  location         : "Lausanne, Switzerland"
+  location         : "Lausanne, CH"
   email            : "ebezzam[at]gmail[dot]com"
   uri              :
   home             : "/about/" # null (default), "absolute or relative url to link to author home"
