@@ -1,0 +1,97 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+<style>
+  .bottom-three {
+     margin-bottom: 1.5cm;
+   }
+  .bottom-small {
+     margin-bottom: 1cm;
+   }
+</style>
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/business.png" alt="Work Experience" width="70" height="70"></p>
+    <p align="center">&#8226 I am a <strong>research assistant</strong> at <a href="https://www.epfl.ch/" target="_blank">EPFL</a> with <a href="https://lts5www.epfl.ch/index.html" target="_blank">LTS5</a> (Prof. J.P. Thiran) <br />
+    and <a href="https://lcav.epfl.ch/" target="_blank">LCAV</a> (Prof. Martin Vetterli).</p>
+    <p align="center">&#8226 I have done internships at <a href="https://dspconcepts.com/" target="_blank">DSP Concepts</a> and <a href="https://www.idmt.fraunhofer.de/en.html" target="_blank">Fraunhofer IDMT</a>.</p>
+    <p align="center">&#8226 I am a co-founder and (past) organizer of <a href="http://lauzhack.com/" target="_blank">LauzHack</a>, 
+    EPFL's <br />student-run hackathon.</p>
+    <br />
+
+
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/study2.png" alt="Education" width="70" height="70"></p>
+    <p align="center">&#8226 I have a <strong>Masters</strong> degree from EPFL in <a href="https://master.epfl.ch/communicationsystems" target="_blank">Communication Systems</a> with a specialization in <strong>signal and image processing</strong>.</p>
+    <p align="center">&#8226 During my Masters, I was a <strong> research assistant </strong> at LCAV under the 
+    <br />supervision of <a href="http://www.robinscheibler.org/" target="_blank">Dr. Robin Scheibler</a> and <a href="https://lcav.epfl.ch/martin.vetterli" target="_blank">Prof. Martin Vetterli</a>.</p>
+    <p align="center">&#8226 We built lots of hardware and software for <strong>microphone array 
+    <br />processing</strong>, most notably <a href="https://github.com/LCAV/pyroomacoustics" target="_blank">pyroomacoustics</a>.</p>
+    <p align="center">&#8226 I received a <strong>Bachelor</strong> degree from <a href="https://www.jacobs-university.de/" target="_blank">Jacobs University</a> in <strong>Electrical and 
+    <br />Computer Engineering</strong>.</p>
+    <br />
+    
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/computer2.png" alt="Computer Skills" width="80" height="80"></p>
+    <p align="center">&#8226 I use <strong>Python</strong> and <strong>Matlab</strong> for the majority of my work.</p>
+    <p align="center">&#8226 I have dabbled with <strong>C</strong> and <strong>VHDL</strong> for hardware projects on the BeagleBone Black, Arduino, Altera FPGA + Nios Processor.</p>
+    <p align="center">&#8226 I have a soft spot for <strong> great documentation</strong> and well-written tutorials.</p>
+    <br />
+
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/talk.png" alt="Languages" width="70" height="70"></p>
+    <p align="center">&#8226 <strong>English</strong> is my native language.</p>
+
+    <p align="center">&#8226 I am proficient in <strong>French</strong> and <strong>Spanish</strong>.</p>
+    <p align="center">&#8226 I speak a bit of <strong>German</strong> and <strong>Italian</strong>.</p>
+    <br />
+    
+    
+    {{ content }}
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>

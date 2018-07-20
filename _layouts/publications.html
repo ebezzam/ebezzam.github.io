@@ -1,0 +1,252 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	border: 1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+<script type="text/javascript">
+    <!--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+-->
+    </script>
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+
+
+
+<h4 style="margin-bottom:0px;padding-top:10px;">Conference Publications</h4>
+
+<ul class="biblist">
+
+<!-- Item: Scheibler2018 -->
+<li ><p>
+<a href="http://www.robinscheibler.org/" target="_blank">R. Scheibler</a>, E. Bezzam, and <a href="http://dokmanic.ece.illinois.edu/" target="_blank">I. Dokmanić</a>
+<br><b>Pyroomacoustics: A Python package for audio room simulations and array processing algorithms</b><br>
+<i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>, 2018.
+<br />
+<a href="javascript:toggleBibtex('Scheibler2018')">[BibTeX]</a>
+<a href="https://arxiv.org/pdf/1710.04196.pdf" target="_blank">[PDF]</a> 
+<a href="/pdf/poster_2018_pyroomacoustics.pdf">[Poster]</a>
+<a href="https://github.com/LCAV/pyroomacoustics"  target="_blank">[Code]</a>
+</p>
+<div id="bib_Scheibler2018" class="bibtex noshow">
+<pre>
+@inproceedings{scheibler2018,
+  title={Pyroomacoustics: A Python package for audio room simulations and array processing algorithms},
+  author={Scheibler, Robin and Bezzam, Eric and Dokmani{\'c}, Ivan},
+  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2018 IEEE International Conference on},
+  year={2018},
+  organization={IEEE}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Bezzam2017 -->
+<li ><p>
+E. Bezzam, <a href="http://www.robinscheibler.org/" target="_blank">R. Scheibler</a>, <a href="https://www.juanazcarreta.com/" target="_blank">J. Azcarreta</a>, <a href="https://lcav.epfl.ch/people/hanjie.pan" target="_blank">H. Pan</a>,  <a href="https://researcher.watson.ibm.com/researcher/view.php?person=zurich-MEO" target="_blank">M. Simeoni</a>, <a href="https://people.epfl.ch/rene.beuchat?lang=en" target="_blank">R. Beuchat</a>, <a href="https://researcher.watson.ibm.com/researcher/view.php?person=zurich-PAH" target="_blank">P. Hurley</a>, <a href="https://ntag.fr/" target="_blank">B. Bruneau</a>, <a href="https://www.cferr.fr/" target="_blank">C. Ferry</a>, and <a href="https://ch.linkedin.com/in/sepand-kashani-3bb508a3" target="_blank">S. Kashani</a>
+<br><b>Hardware and software for reproducible research in audio array signal processing (demo)</b><br>
+<i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>, 2017.
+<br />
+<a href="javascript:toggleBibtex('Bezzam2017')">[BibTeX]</a>
+<a href="https://infoscience.epfl.ch/record/233864/files/PyramicDemo.pdf" target="_blank">[PDF]</a>
+<a href="/pdf/poster_2017_icassp_demo.pdf">[Poster]</a>
+<a href="https://github.com/LCAV/CompactSix"  target="_blank">[Hardware #1]</a> </a>
+<a href="https://github.com/LCAV/Pyramic"  target="_blank">[Hardware #2]</a>
+</a> <a href="https://github.com/LCAV/easy-dsp"  target="_blank">[Browser Interface]</a>
+<a href="https://github.com/LCAV/pyroomacoustics"  target="_blank">[Algorithms]</a>
+<a href="https://www.youtube.com/watch?v=DOca8ErbIfw"  target="_blank">[Video]</a>
+</p>
+<div id="bib_Bezzam2017" class="bibtex noshow">
+<pre>
+@INPROCEEDINGS{bezzam2017, 
+author={E. Bezzam and R. Scheibler and J. Azcarreta and H. Pan and M. Simeoni and R. Beuchat and P. Hurley and B. Bruneau and C. Ferry and S. Kashani}, 
+booktitle={2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+title={Hardware and software for reproducible research in audio array signal processing}, 
+year={2017},
+pages={6591-6592},
+doi={10.1109/ICASSP.2017.8005297}, 
+ISSN={}, 
+month={March},}
+</pre>
+</div>
+</li>
+
+
+<!-- Item: Pan2017 -->
+<li ><p>
+<a href="https://lcav.epfl.ch/people/hanjie.pan" target="_blank">H. Pan</a>, <a href="http://www.robinscheibler.org/" target="_blank">R. Scheibler</a>, E. Bezzam, <a href="http://dokmanic.ece.illinois.edu/" target="_blank">I. Dokmanić</a>, and <a href="https://lcav.epfl.ch/martin.vetterli" target="_blank">M. Vetterli</a>
+<br><b>FRIDA: FRI-based DoA estimation for arbitrary array layouts</b><br>
+<i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>, 2017.
+<br />
+<a href="javascript:toggleBibtex('Pan2017')">[BibTeX]</a>
+<a href="https://infoscience.epfl.ch/record/223649/files/icassp2017.pdf" target="_blank">[PDF]</a> 
+<a href="/pdf/poster_2017_icassp_frida.pdf">[Poster]</a>
+<a href="https://github.com/LCAV/FRIDA"  target="_blank">[Code]</a>
+</p>
+<div id="bib_Pan2017" class="bibtex noshow">
+<pre>
+@inproceedings{pan2017frida,
+  title={FRIDA: FRI-based DoA estimation for arbitrary array layouts},
+  author={Pan, Hanjie and Scheibler, Robin and Bezzam, Eric and Dokmani{\'c}, Ivan and Vetterli, Martin},
+  booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2017 IEEE International Conference on},
+  pages={3186--3190},
+  year={2017},
+  organization={IEEE}
+}
+</pre>
+</div>
+</li>
+
+
+<!-- Item: Besson2016 -->
+<li ><p>
+<a href="https://adribesson.github.io/" target="_blank">A. Besson</a>, <a href="https://scholar.google.com/citations?user=-KhnCwMAAAAJ&hl=en" target="_blank">R. E. Carrillo</a>, <a href="https://people.epfl.ch/dimitris.perdios" target="_blank">D. Perdios</a>, E. F. Bezzam, <a href="https://scholar.google.ch/citations?user=4w3-BxEAAAAJ&hl=fr" target="_blank">M. Arditi</a>, <a href="https://www.hw.ac.uk/staff/uk/eps/yves-wiaux.htm" target="_blank">Y. Wiaux</a>, and <a href="https://lts5www.epfl.ch/thiran.html" target="_blank">J.-Phi. Thiran</a>
+
+<br><strong>Morphological component analysis for sparse regularization in plane wave imaging</strong>
+<br><i>IEEE International Ultrasonics Symposium (IUS)</i>, 2016.
+<br />
+<a href="javascript:toggleBibtex('Besson2016')">[BibTeX]</a>
+<a href="https://infoscience.epfl.ch/record/221270/files/PICMUS_IUS2016.pdf" target="_blank">[PDF]</a>
+</p>
+<div id="bib_Besson2016" class="bibtex noshow">
+<pre>
+@inproceedings{Besson_IUS_2016a,
+  author = {Adrien Besson and Rafael E. Carrillo and Dimitris Perdios and Eric F. Bezzam and Marcel Arditi and Yves Wiaux and Jean-Philippe Thiran},
+  title = {Morphological component analysis for sparse regularization in plane wave imaging},
+  booktitle = {2016 IEEE International Ultrasonics Symposium (IUS)},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+  year = {2016},
+  doi = {http://doi.org/10.1109/ultsym.2016.7728896}
+}
+</pre>
+</div>
+</li>
+
+
+
+      </ul  >
+
+
+
+    
+    
+    
+    <h4 style="margin-bottom:0px;padding-top:20px;">Written Theses</h4>
+    
+    <ul class="biblist">
+
+      <!-- Item: Bezzam2018 -->
+        <li ><p>
+            M.Sc. thesis<br>
+            <b>Sampling at the rate of innovation for ultrasound imaging and localization</b><br>
+            École Polytechnique Fédérale de Lausanne, 2018.
+            
+            <br />
+            <a href="javascript:toggleBibtex('Bezzam2018')">[BibTeX]</a>
+            
+            <a href="https://infoscience.epfl.ch/record/255931/files/bezzam_master_thesis.pdf"  target="_blank">[PDF]</a> <a href="https://infoscience.epfl.ch/record/255931/files/bezzam_master_thesis_slides.pdf"  target="_blank">[Slides]</a> <a href="https://github.com/ebezzam/frius"  target="_blank">[Code]</a>
+            </p>
+            <div id="bib_Bezzam2018" class="bibtex noshow">
+                <pre>@MastersThesis{bezzam2018,
+    author = {Eric Bezzam},
+    title = {Sampling at the rate of innovation for ultrasound imaging and localization},
+    school = {\'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne},
+    year = {2018}
+}</pre>
+            </div>
+        </li>
+    </ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>
