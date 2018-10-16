@@ -6,7 +6,7 @@ permalink: /blog/soccer-vs-football
 comments: true
 ---
 
-"Soccer" or "football"? As an American who loves _the beautiful game_, this question/debate often comes up.
+"Soccer" or "football"? As an American who loves _the beautiful game_, this question / debate often comes up.
 
 <br>
 From my experience, no matter what I say this conversation comes up. Either I say "soccer" and of course the European will say "why don't you call it football like everyone else!"; or I say "football" and they'll be confused which football I am refering to due to my American accent!

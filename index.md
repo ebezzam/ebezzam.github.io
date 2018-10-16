@@ -7,7 +7,7 @@ tags: [Jekyll, theme, responsive, blog, template]
   feature: trees.jpg -->
 ---
 
-I am a research assistant at <a href="https://research.google.com" target="_blank">EPFL</a>, co-supervised by <a href="https://lts5www.epfl.ch/thiran.html" target="_blank">Prof. Jean-Philippe Thiran</a> and <a href="https://lcav.epfl.ch/martin.vetterli" target="_blank">Prof. Martin Vetterli</a>.
+I am a research assistant at <a href="https://www.epfl.ch/" target="_blank">EPFL</a>, co-supervised by <a href="https://lts5www.epfl.ch/thiran.html" target="_blank">Prof. Jean-Philippe Thiran</a> and <a href="https://lcav.epfl.ch/martin.vetterli" target="_blank">Prof. Martin Vetterli</a>. I am also a Tech Evangelist for <a href="https://snips.ai/" target="_blank">Snips</a>.
 
 <br />
 I have enjoyed internships in the Silicon Valley with <a href="https://dspconcepts.com/" target="_blank">DSP Concepts</a> and in Germany at <a href="https://www.idmt.fraunhofer.de/en.html" target="_blank">Fraunhofer IDMT</a>. 
