@@ -42,10 +42,13 @@ As part of a three-month internship during my Bachelors, I worked at Fraunhofer 
 
 ### Hackathons
 
+* [**Speak2Tex (jacobsHack 2018)**](https://devpost.com/software/speak2tex)<br>
+Using a [Snips Maker Kit](https://makers.snips.ai/kit/) and the [Console](http://console.snips.ai), we built a voice assistant that can generate the corresponding LaTeX syntax for a wide range of functions and operations: e.g. polynomials, trigonometric functions, integrals, derivatives, matrix operations. We won Bloomberg's Best Tech Prize and GitHub's prize for best Git practices.
+
 * [**A cognitive robot for helping identify motor disabilities in children (HackZurich 2017)**](https://devpost.com/software/jred)<br>
 We equipped ABB's [YuMi robot](https://new.abb.com/products/robotics/industrial-robots/yumi) with a "mouth" and "ears" (laptop speaker and microphone + Microsoft Cognitive Services) and "eyes" (Logitech webcam + OpenCV) in order to automate a concise version of the M-ABC Test for diagnosing motor disabilities in children. We were **second place** out of around 150 teams.
 
-* [**Food Cycle: online platform to reduce food waste (Foodhack 2017)**](https://www.youtube.com/watch?time_continue=8&v=WgaTlFW-41Q)<br>
+* [**Food Cycle: online platform to reduce food waste (Foodhack 2017)**](https://youtu.be/WgaTlFW-41Q)<br>
 We developed an online B2B marketplace for food suppliers to connect with entities (such as restaurants and canteens) to sell excess products at a lower price rather than resorting to disposal. We won the _Food Save Challenge_.
 
 * [**DoctorBot: a chatbot for medical advice (HackZurich 2016)**](https://github.com/ebezzam/DoctorBot)<br>
