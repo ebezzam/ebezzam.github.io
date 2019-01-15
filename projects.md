@@ -12,9 +12,6 @@ Below are some projects that I have worked on during my studies, at internships,
 
 ### Research
 
-* [**Sampling at the rate of innovation for ultrasound imaging and localization (Master thesis, 2018)**](https://github.com/ebezzam/frius)<br>
-I investigated the application of [_Finite Rate of Innovation_](https://ieeexplore.ieee.org/document/1003065/) (FRI) and [_Euclidean Distance Matrices_](https://arxiv.org/pdf/1502.07541.pdf) (EDM) can be applied to the task of ultrasound imaging and localization.  The target was medical imaging but an application to non-destructive evaluation was also considered.
-
 * **Microphone array processing (2015-now)**<br>
 An ongoing project which was a part of my [Research Scholar](https://ic.epfl.ch/ResearchScholars) experience with [LCAV](https://lcav.epfl.ch/). In collaboration with multiple people, most notably my supervisor <a href="http://www.robinscheibler.org/" target="_blank">Dr. Robin Scheibler</a>, the following tools/data for microphone array processing were developed:
     * Hardware for the [BeagleBone Black](https://beagleboard.org/black): [cape for 8 PDM mics](https://github.com/fakufaku/kurodako), [CompactSix array](https://github.com/LCAV/CompactSix), [Pyramic](https://github.com/LCAV/Pyramic)
@@ -22,6 +19,10 @@ An ongoing project which was a part of my [Research Scholar](https://ic.epfl.ch/
     * Algorithms: [pyroomacoustics](https://github.com/LCAV/pyroomacoustics)
     * Data: [Pyramic recordings](https://zenodo.org/record/1209005#.W05WVNgzab8)  
 <br />
+
+* [**Sampling at the rate of innovation for ultrasound imaging and localization (Master thesis, 2018)**](https://github.com/ebezzam/frius)<br>
+I investigated the application of [_Finite Rate of Innovation_](https://ieeexplore.ieee.org/document/1003065/) (FRI) and [_Euclidean Distance Matrices_](https://arxiv.org/pdf/1502.07541.pdf) (EDM) can be applied to the task of ultrasound imaging and localization.  The target was medical imaging but an application to non-destructive evaluation was also considered.
+
 * [**Python implementation of DeepFool and applying it to commercial classifiers (Fall 2016)**](/pdf/lts4_semester_project_eric_bezzam.pdf)<br>
 As a semester project, I implemented the <a href="https://arxiv.org/abs/1511.04599" target="_blank">DeepFool</a> algorithm in Python and developed a "blackbox" approach, i.e. a situation in which we do not have full access to the classifier structure as is normally required by DeepFool. As well as applying this blackbox approach to _academic_ networks, such as those submitted to the <a href="http://www.image-net.org/challenges/LSVRC/" target="_blank">ILSVRC</a> competition, I also applied it to a commercial classifier - <a href="https://www.clarifai.com/" target="_blank">Clarifai</a> - to gauge the robustness of products in the area of image classification and object recognition. An implementation of DeepFool for Google's Cloud Vision, IBM's Visual Recognition, Amazon Rekognition, and Microsoft's Computer Vision APIs was also made but not extensively tested due to limited query credits.
 

@@ -12,12 +12,12 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 owner:
   name:           Eric Bezzam
   avatar:         lauzhack2016.jpg
-  bio:            From the Bay Area (California) but currently based in Lausanne, Switzerland. Passionate about signal processing, audio/music, teaching, and soccer.
+  bio:            From the Bay Area (California) but currently based in Paris. Passionate about signal processing, audio/music, teaching, and soccer.
   email:          ebezzam[at]gmail[dot]com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: ericbezzam
   linkedin: "eric-bezzam"
-  google_scholar: O9aLqwYAAAAJ
+  google_scholar: os7vnd0AAAAJ
   google_plus: 
   github: ebezzam
 # Analytics and webmaster tools stuff goes here

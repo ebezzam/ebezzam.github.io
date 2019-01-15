@@ -13,17 +13,7 @@ Below are my various teaching experiences at nearly all levels of education. Eac
 ### University
 
 * **[Audio and acoustic signal processing](http://edu.epfl.ch/coursebook/en/audio-and-acoustic-signal-processing-COM-415) (EPFL, Fall 2018)**<br>
-For 2018, I am a full TA, which involves co-supervising mini-projects in:
-    * Binaural room impulse response (RIR) generation
-    * Noise reduction / speech enhancement
-    * Modeling frequency dependence in RIR generation
-    * Chorus effect
-    * Pitch detection
-    * Beat detection
-    * Pitch shifting voice effects
-    * Auto wah effect
-    * Blind source separation
-    * Parametric coding of stereo signals  
+For this graduate course, I co-supervised several mini-projects, which can be found [here](https://aasp2018.devpost.com/submissions).
 <br>
 
 * **Semester project supervision (EPFL, 2016-now)**<br>
