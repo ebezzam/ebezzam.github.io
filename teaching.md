@@ -7,16 +7,21 @@ modified: 17-07-2018
 comments: false
 ---
 
-Below are my various teaching experiences at nearly all levels of education. Each experience has had an impact on my public-speaking, communication, and leadership skills. Teaching at the university level has also played a strong part in reinforcing key concepts in signal processing!
+Below are my various teaching experiences. Each experience has had an impact on my public-speaking, communication, and leadership skills. Teaching at the university level has also played a strong part in reinforcing key concepts in signal processing!
 
 
 ### University
+
+
+* **[Building an on-device voice assistant](https://github.com/ebezzam/snips-workshop-macos) (ESSEC Business School and Hochschule Darmstadt, 2019)**<br>
+During the Spring and Fall semesters of 2019, I gave workshops at ESSEC on how to use the Snips platform to build on-device voice assistants. I gave a similar one-day course at Hochschule Darmstadt.
+<br>
 
 * **[Audio and acoustic signal processing](http://edu.epfl.ch/coursebook/en/audio-and-acoustic-signal-processing-COM-415) (EPFL, Fall 2018)**<br>
 For this graduate course, I co-supervised several mini-projects, which can be found [here](https://aasp2018.devpost.com/submissions).
 <br>
 
-* **Semester project supervision (EPFL, 2016-now)**<br>
+* **Semester project supervision (EPFL, 2016-2018)**<br>
 I've co-supervised the following projects with <a href="http://www.robinscheibler.org/" target="_blank">Dr. Robin Scheibler</a>:
     * (Fall 2016) Browser-based interface for microphone array processing in Python with the BeagleBone Black (BBB), [GitHub repo](https://github.com/LCAV/easy-dsp).
     * (Fall 2017) Using the PRU microcontrolles on the BBB for front-end audio processing (downsampling and low-pass filtering with the CIC filter) for an array of PDM microphones, [GitHub repo](https://github.com/Scrashdown/PRU-Audio-Processing).
@@ -24,7 +29,7 @@ I've co-supervised the following projects with <a href="http://www.robinscheible
     * (Fall 2018) Ray-tracing techniques for room impulse response generation, [GitHub repo](https://github.com/CyrilCadoux/pyroomacoustics).  
 <br>
 
-* **[Signal processing for communications](http://edu.epfl.ch/coursebook/fr/signal-processing-for-communications-COM-303) (EPFL, Spring 2018-now)**<br>
+* **[Signal processing for communications](http://edu.epfl.ch/coursebook/fr/signal-processing-for-communications-COM-303) (EPFL, Spring 2018)**<br>
 With [Adrien Hoffet](https://people.epfl.ch/adrien.hoffet?lang=fr&cvlang=fr) and the instructor [Paolo Prandoni](https://lcav.epfl.ch/people/paolo.prandoni), practical sessions with the [STM32 Nucleo-F072](http://www.st.com/en/evaluation-tools/nucleo-f072rb.html) were created to complement the theory taught in the course. In particular, we go through the voice transformations presented in this [IPython notebook](https://github.com/prandoni/COM303/blob/master/voice_transformer/voicetrans.ipynb) and port them for real-time implementation on the board with C. All the material for the practical exercises can be found [here](https://lcav.gitbook.io/dsp-labs/).
 
 * **Audio signal processing and virtual acoustics (EPFL, Fall 2017)**<br>
@@ -42,13 +47,14 @@ I was a TA for the following courses at Jacobs University, which involved giving
 
 ### Miscellaneous
 
-* **[LauzHack Days](https://lauzhack.com/workshops) (Lausanne, 2018-now)**<br>
-As part of [LauzHack](https://lauzhack.com/)'s mission enable hackers at EPFL, we began doing frequent workshops. I've given the following workshops:
+* **[LauzHack Days](https://lauzhack.com/workshops) (Lausanne, 2018)**<br>
+As part of [LauzHack](https://lauzhack.com/)'s to mission enable hackers at EPFL, we began doing frequent workshops. I gave the following workshops:
     * [Hacking with Amazon Alexa](https://localhost.mlh.io/activities/build-with-alexa/)
-    * [Fun Fourier Transform - Whistle Unlocker](https://github.com/ebezzam/melody-detection)       
+    * [Fun Fourier Transform - Whistle Unlocker](https://github.com/ebezzam/melody-detection)    
+    * [Build a Private-by-Design Voice Assistant](https://github.com/ebezzam/snips-skill-mental-calculation)    
 <br>
 
-* **[GirlsCoding](https://girlscoding.org/) volunteer (Switzerland, 2017-now)**<br>
+* **[GirlsCoding](https://girlscoding.org/) volunteer (Switzerland, 2017-2018)**<br>
 On a few occasions, I have volunteered in giving coding workshops to girls of ages 9-16 in French and English:
     * [LauzHack 2017](http://girlscoding.org/event/lauzhack-mini/)
     * [Applied Machine Learning Days 2018](http://girlscoding.org/event/girlscoding-applied-machine-learning-days/), we even made it to <a href="https://actu.epfl.ch/news/girls-coding-on-rts/" target="_blank">Swiss national TV</a>!

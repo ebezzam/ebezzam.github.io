@@ -12,7 +12,11 @@ Below are some projects that I have worked on during my studies, at internships,
 
 ### Research
 
-* **Microphone array processing (2015-now)**<br>
+* **Data augmentation and room simulation for far-field recognition (2019-now)**<br>
+As part of my work at Snips and currently at Sonos, I work on data augmentation and room simulation techniques for far-field recognition. We recently submitted a paper to Interspeech 2020.
+<br />
+
+* **Microphone array processing (2015-2018)**<br>
 An ongoing project which was a part of my [Research Scholar](https://ic.epfl.ch/ResearchScholars) experience with [LCAV](https://lcav.epfl.ch/). In collaboration with multiple people, most notably my supervisor <a href="http://www.robinscheibler.org/" target="_blank">Dr. Robin Scheibler</a>, the following tools/data for microphone array processing were developed:
     * Hardware for the [BeagleBone Black](https://beagleboard.org/black): [cape for 8 PDM mics](https://github.com/fakufaku/kurodako), [CompactSix array](https://github.com/LCAV/CompactSix), [Pyramic](https://github.com/LCAV/Pyramic)
     * Software: [browser-based interface](https://github.com/LCAV/easy-dsp), [driver for 8 mic cape](https://github.com/Scrashdown/PRU-Audio-Processing)
