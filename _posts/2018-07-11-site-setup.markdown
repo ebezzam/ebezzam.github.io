@@ -29,7 +29,7 @@ Simple Jekyll setup after setting up Ruby environment (modified from [here](http
 ```bash
 gem install jekyll bundler
 
-# create website at current directory
+# create website at current directory (make sure the directory is empy)
 # this will auto-generate a few files for a simple website
 jekyll new . 
 
