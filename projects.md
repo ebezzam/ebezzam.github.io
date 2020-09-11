@@ -12,8 +12,8 @@ Below are some projects that I have worked on during my studies, at internships,
 
 ### Research
 
-* **Data augmentation and room simulation for far-field recognition (2019-now)**<br>
-As part of my work at Snips and currently at Sonos, I work on data augmentation and room simulation techniques for far-field recognition. We recently submitted a paper to Interspeech 2020.
+* **Data augmentation and room simulation for far-field recognition (2019-2020)**<br>
+As part of my work at Snips / Sonos, I worked on data augmentation and room simulation techniques for far-field recognition. [Here](https://arxiv.org/pdf/2006.02774.pdf) is some of the work we did on closing the gap between simulated and measured room impulse responses.
 <br />
 
 * **Microphone array processing (2015-2018)**<br>
