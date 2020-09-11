@@ -7,7 +7,10 @@ tags: [Jekyll, theme, responsive, blog, template]
   feature: trees.jpg -->
 ---
 
-I am a signal processing engineer in the <a href="https://www.sonos.com" target="_blank">Sonos</a> Voice Experience Team, formerly <a href="https://snips.ai/" target="_blank">Snips</a> (acquired November 2019). Before I was at <a href="https://www.epfl.ch/" target="_blank">EPFL</a> (Switzerland), where I did my Masters and was a research assistant for the <a href="https://lcav.epfl.ch/" target="_blank">Audiovisual Communications Laboratory</a> of Prof. Martin Vetterli. At EPFL, I started to (and still) work on <a href="https://github.com/LCAV/pyroomacoustics" target="_blank">`pyroomacoustics`</a> and helped developed a <a href="https://hwlab.learndsp.org/" target="_blank">DSP lab module</a>, which is now part of EPFL's signal processing course on <a href="https://www.coursera.org/learn/dsp4" target="_blank">Coursera</a>.
+As of September 2020, I am a PhD student at <a href="https://www.epfl.ch/" target="_blank">EPFL</a> (Switzerland).
+
+<br />
+Previously, I was a signal processing engineer in the <a href="https://www.sonos.com" target="_blank">Sonos</a> Voice Experience Team, formerly <a href="https://snips.ai/" target="_blank">Snips</a> (acquired November 2019). Before I was at EPFL, where I did my Masters and was a research assistant for the <a href="https://lcav.epfl.ch/" target="_blank">Audiovisual Communications Laboratory</a> of Prof. Martin Vetterli. At EPFL, I worked on <a href="https://github.com/LCAV/pyroomacoustics" target="_blank">`pyroomacoustics`</a> and helped develop a <a href="https://hwlab.learndsp.org/" target="_blank">DSP lab module</a>, which is now part of EPFL's signal processing course on <a href="https://www.coursera.org/learn/dsp4" target="_blank">Coursera</a>.
 
 <br />
 I have done internships in the Silicon Valley (where I am originally from) with <a href="https://dspconcepts.com/" target="_blank">DSP Concepts</a> and in Germany (where I did my Bachelors) at <a href="https://www.idmt.fraunhofer.de/en.html" target="_blank">Fraunhofer IDMT</a>.  
