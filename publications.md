@@ -7,4 +7,4 @@ modified: 14-7-2018
 comments: false
 ---
 
-You can also browse my <a href="https://scholar.google.com/citations?user=s_6AN5EAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.
+You can also browse my <a href="https://scholar.google.com/citations?user=vDrX0PYAAAAJ=en" target="_blank">Google Scholar profile</a>.
