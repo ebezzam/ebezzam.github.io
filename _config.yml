@@ -11,14 +11,17 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Owner/author information
 owner:
   name:           Eric Bezzam, PhD
-  avatar:         lauzhack2016.jpg
+  avatar:         pic.jpg
   bio:            From the Bay Area but Europe-based. Bridging the physical and digital worlds (and vice-versa) with AI/ML and signal processing.
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   github: ebezzam
   linkedin: "eric-bezzam"
   x:              ericbezzam
+  huggingface:    bezzam
   google_scholar: vDrX0PYAAAAJ
   google_plus: 
+
+logo: pic.jpg
   
 # Analytics and webmaster tools stuff goes here
 google_analytics:
