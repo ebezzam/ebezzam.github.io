@@ -1,4 +1,4 @@
-title:            Eric Bezzam's site
+title:            Home
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              //ebezzam.github.io
@@ -10,16 +10,16 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Owner/author information
 owner:
-  name:           Eric Bezzam
+  name:           Eric Bezzam, PhD
   avatar:         lauzhack2016.jpg
-  bio:            From the Bay Area (California) but currently based in Lausanne. Passionate about signal processing, audio/music, and teaching.
-  email:          ebezzam[at]gmail[dot]com
+  bio:            From the Bay Area but Europe-based. Bridging the physical and digital worlds (and vice-versa) with AI/ML and signal processing.
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: ericbezzam
+  github: ebezzam
   linkedin: "eric-bezzam"
+  x:              ericbezzam
   google_scholar: vDrX0PYAAAAJ
   google_plus: 
-  github: ebezzam
+  
 # Analytics and webmaster tools stuff goes here
 google_analytics:
 google_verify:
@@ -29,8 +29,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: CV
-    url: /cv/
+  # - title: CV
+  #   url: /cv/
   - title: Publications
     url: /publications/
   - title: Projects

@@ -7,10 +7,10 @@ modified: 19-07-2018
 comments: false
 ---
 
-Music is incredibly important for me! It's part of the reason I've dedicated a lot of my work to audio signal processing. Music and sound in general can have a profound effect on how we perceive the world around us. To music, I associate strong memories and sentiments. I enjoy listening to all genres (fusions are the best), meandering on the piano, and learning about music history and theory.
+Music is important for me! It's part of the reason I've dedicated a lot of my work to audio signal processing. Music and sound in general can have a profound effect on how we perceive the world around us. To music, I associate strong memories and sentiments. I enjoy listening to all genres (fusions are the best), meandering on the piano, and learning about music history and theory.
 
 <br>
-Below are some performances I did mostly during undergrad in Bremen, Germany. I would love to get back to performing so feel free to contact me if you want to jam :)
+Below are some performances (keyboard) I did mostly during undergrad in Bremen, Germany. I would love to get back to performing so feel free to contact me if you want to jam :)
 
 ### Jacobs University Graduation 2015
 

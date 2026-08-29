@@ -3,14 +3,20 @@ layout: page
 permalink: /projects/
 title: Projects
 tags: [projects]
-modified: 17-07-2018
+modified: 29-08-2026
 comments: false
 ---
 
-Below are some projects that I have worked on during my studies, at internships, and over weekends at hackathons. Links are provided wherever available!
+Below are some projects that I have worked on. Check [LinkedIn](https://www.linkedin.com/in/eric-bezzam/), [X](https://x.com/ericbezzam), and [GitHub](https://github.com/ebezzam) for latest updates!
 
 
-### Research
+### R&D
+
+* **Audio ML (2020-2025)**<br>
+At Hugging Face: adding the best and latest audio models to [Transformers](https://github.com/huggingface/transformers) and benchmarking with the [Open ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard).
+
+* **Lensless imaging (2020-2025)**<br>
+As part of my PhD, I work on lensless imaging techniques. Everything can be found on [GitHub](https://github.com/LCAV/LenslessPiCam).
 
 * **Data augmentation and room simulation for far-field recognition (2019-2020)**<br>
 As part of my work at Snips / Sonos, I worked on data augmentation and room simulation techniques for far-field recognition. [Here](https://arxiv.org/pdf/2006.02774.pdf) is some of the work we did on closing the gap between simulated and measured room impulse responses.

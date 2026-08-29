@@ -20,6 +20,6 @@ But of course, we mustn't forget Dean Moriarty. The impulsive, sweating, slightl
 
 > And in fact that was the point, and they all sat around looking at Dean with lowered and hating eyes, and he stood on the carpet in the middle of them and giggled - he just giggled. He made a little dance. His bandage was getting dirtier all the time; it began to flop and unroll. I suddenly realized that Dean, by virtue of his enormous series of sins, was becoming the Idiot, the Imbecile, the Saint of the lot. (p. 182 / 291)
 
-This hectic life on the road becomes just one phase in life. One, that once settled, fits nicely into a collage book, or photo gallery on your phone, that you sweep through from the comforts of your couch. But was is worth it?
+This hectic life on the road becomes just one phase in life. One, that once settled, fits nicely into a collage book, or photo gallery on your phone, that you sweep through from the comforts of your couch. But was it worth it?
 
-> I realized these were all the snapshots which our children would look at someday with wonder, thinking their parents had lived smooth, well-ordered, stabilized-within-the-photo lives and got up in the morning to walk proudly on the sidewalks of life, never dreaming the ragedy madness and riot of our actual lives, our actual night, the hell of it, the senseless nightmare road. (p. 239 / 291)
+> I realized these were all the snapshots which our children would look at someday with wonder, thinking their parents had lived smooth, well-ordered, stabilized-within-the-photo lives and got up in the morning to walk proudly on the sidewalks of life, never dreaming the tragedy madness and riot of our actual lives, our actual night, the hell of it, the senseless nightmare road. (p. 239 / 291)
